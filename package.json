@@ -1,0 +1,23 @@
+{
+  "name": "redtheme",
+  "displayName": "Red Theme",
+  "description": "Red Theme",
+  "version": "0.0.1",
+  "publisher": "aysesudeozden",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Red Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Red Theme-color-theme.json"
+      }
+    ]
+  }
+}
