@@ -1,0 +1,75 @@
+{
+  "name": "redtheme",
+  "displayName": "Kirmizi Tema",
+  "description": "Red theme",
+  "version": "0.0.1",
+  "publisher": "aysesudeozden", 
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "type": "dark",
+  "colors": {
+    "editor.background": "#110000",
+    "editor.foreground": "#ffb3b3",
+    "activityBar.background": "#1a0303",
+    "activityBar.foreground": "#ff4d4d",
+    "sideBar.background": "#220505",
+    "sideBar.foreground": "#ff9999",
+    "statusBar.background": "#330000",
+    "statusBar.foreground": "#ffe6e6",
+    "titleBar.activeBackground": "#2b0a0a",
+    "titleBar.activeForeground": "#ffcccc",
+    "button.background": "#800000",
+    "button.hoverBackground": "#b30000",
+    "editorLineNumber.foreground": "#661111",
+    "editorLineNumber.activeForeground": "#ff1a1a",
+    "editorCursor.foreground": "#ff0000",
+    "terminal.background": "#0d0000",
+    "terminal.foreground": "#ff8080",
+    "tab.activeBackground": "#1f0000",
+    "tab.activeForeground": "#ff3333",
+    "tab.inactiveBackground": "#140505",
+    "tab.inactiveForeground": "#8c1a1a",
+    "editorIndentGuide.background1": "#4d0d0d",
+    "editorIndentGuide.activeBackground1": "#991a1a"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#a63c3c",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword", "storage", "variable.language", "entity.name.tag"],
+      "settings": {
+        "foreground": "#ff5c5c"
+      }
+    },
+    {
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "#ff8585"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#e60000"
+      }
+    },
+    {
+      "scope": ["variable", "support.variable", "support.class", "entity.name.type"],
+      "settings": {
+        "foreground": "#ffadad"
+      }
+    },
+    {
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#ff7070"
+      }
+    }
+  ]
+}
