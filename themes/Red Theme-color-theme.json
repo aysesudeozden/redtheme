@@ -1,8 +1,8 @@
 {
   "name": "redtheme",
-  "displayName": "Kirmizi Tema",
+  "displayName": "Red Theme",
   "description": "Red theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "aysesudeozden", 
   "engines": {
     "vscode": "^1.80.0"
@@ -12,7 +12,7 @@
     "editor.background": "#110000",
     "editor.foreground": "#ffb3b3",
     "activityBar.background": "#1a0303",
-    "activityBar.foreground": "#ff4d4d",
+    "activityBar.foreground": "#a12f2f",
     "sideBar.background": "#220505",
     "sideBar.foreground": "#ff9999",
     "statusBar.background": "#330000",

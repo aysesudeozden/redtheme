@@ -1,10 +1,15 @@
 {
   "name": "redtheme",
   "displayName": "Red Theme",
-  "description": "Red Theme",
-  "version": "0.0.1",
+  "description": "Red theme",
+  "icon": "icon.png",
+  "version": "0.0.3",
   "publisher": "aysesudeozden",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aysesudeozden/redtheme"
+  },
   "engines": {
     "vscode": "^1.80.0"
   },
